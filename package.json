@@ -1,0 +1,11 @@
+{
+  "name": "event-management-system-root",
+  "version": "1.0.0",
+  "description": "Full-Stack Event Management System",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "server": "cd backend && npm start",
+    "client": "cd frontend && npm run dev",
+    "dev": "node -e \"console.log('Run backend with: npm run server, frontend with: npm run client')\""
+  }
+}
