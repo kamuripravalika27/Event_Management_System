@@ -49,30 +49,3 @@ A full-stack, enterprise-ready web application built with **React.js, Node.js, E
 | **Backend** | Node.js, Express.js, JWT (`jsonwebtoken`), Password Hashing (`bcryptjs`), `qrcode` |
 | **Database** | MongoDB & Mongoose (with seamless In-Memory DB Fallback engine for out-of-the-box execution) |
 
----
-
-## 🚀 How to Run locally
-
-### 1. Start Backend Server
-```bash
-cd backend
-npm install
-npm start
-```
-*The backend API will run on `http://localhost:5000/api`*
-
-### 2. Start Frontend App
-```bash
-cd frontend
-npm install
-npm run dev
-```
-*The frontend React app will open on `http://localhost:5173/`*
-
----
-
-## ⚡ Instant 1-Click Demo Evaluation Mode
-Use the **Role Switcher Pill Bar** at the top of the app to instantly test all 3 roles:
-- **Demo User** (`user@eventhub.com`)
-- **Demo Organizer** (`organizer@eventhub.com`)
-- **Demo Admin** (`admin@eventhub.com`)
